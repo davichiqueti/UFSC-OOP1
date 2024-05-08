@@ -2,16 +2,15 @@ from abc import ABC, abstractmethod, abstractproperty
 from cliente import Cliente
 from tecnico import Tecnico
 
+
 class AbstractControladorPessoas(ABC):
 	# @return retorna a lista de clientes
 	@abstractproperty
-    @property
 	def clientes(self) -> list:
 		pass
 
 	# @return retorna a lista de tecnicos
 	@abstractproperty
-    @property
 	def tecnicos(self) -> list:
 		pass
 

@@ -8,9 +8,9 @@ class AbstractPessoa(ABC):
     @property
     @abstractmethod
     def codigo(self) -> int:
-    	pass
+        pass
     
     @property
     @abstractmethod
     def nome(self) -> str:
-    	pass
+        pass
